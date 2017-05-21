@@ -1,4 +1,3 @@
--- James O'Brien 16142331
 -- MySql database model for DublinBikes sharing system
 -- Line 3499 for DataMart
 DROP database IF  EXISTS dublinbikes;
