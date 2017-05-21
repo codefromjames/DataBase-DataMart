@@ -1,4 +1,4 @@
-# DataBase-DateMart
+# DataBase-DataMart
 Bike Share Example 
 
    The database was based on a model of Bike Share.  The model assumes that bike rotation, repairs and payments are all connected on a singular system. The isolated tables, payment methods and customer details were created first without the requirement for foreign keys.   A one-to-one relationship was created between customer details and customers. The only way I found in MySql was using the primary key as the foreign key to create this relationship.  The three tables represented all the customer’s information which was required for subscribing to the service. The next table created was payments which used the two new primary keys as foreign keys. This was because customers will have many payments and many different methods will be used to pay. 
